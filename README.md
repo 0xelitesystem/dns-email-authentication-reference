@@ -8,15 +8,19 @@ SPF, DKIM, and DMARC are records you publish in your domain's DNS that let recei
 
 ## What is inside
 
-- `01-why-it-matters.md` spoofing, deliverability, and trust.
-- `02-spf.md` authorizing your sending servers.
-- `03-dkim.md` signing your messages.
-- `04-dmarc.md` tying it together and setting policy.
-- `05-setup-order.md` a sensible order and rollout.
+- [01-why-it-matters.md](01-why-it-matters.md) spoofing, deliverability, and trust.
+- [02-spf.md](02-spf.md) authorizing your sending servers.
+- [03-dkim.md](03-dkim.md) signing your messages.
+- [04-dmarc.md](04-dmarc.md) tying it together and setting policy.
+- [05-setup-order.md](05-setup-order.md) a sensible order and rollout.
 
 ## The stance
 
 This reference treats email authentication as essential for anyone sending from their own domain: without it, your mail is more likely to be spam-filtered and your domain is open to being spoofed. It favors a careful rollout, especially for DMARC, to avoid blocking your own legitimate mail.
+
+## More
+
+Part of a catalog of single-file browser tools and plain-language references, all MIT licensed and dependency-free: [0xelitesystem.github.io](https://0xelitesystem.github.io/). Built by [elitesystem.ai](https://elitesystem.ai).
 
 ## License
 
